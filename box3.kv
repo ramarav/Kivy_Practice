@@ -1,0 +1,27 @@
+BoxLayoutExample:
+<BoxLayoutExample>:
+    orientation: "horizontal"
+    Button:
+        text: "Hi"
+
+        size_hint: .5, .5
+        # size: "100dp", "60dp"
+        # width: "100dp"
+        # height: "60dp"
+        # x, center_x, right
+        # y, center_y, top
+        pos_hint: { "center_y": .5 }
+
+    BoxLayout:
+        orientation: "vertical"
+        spacing: "10dp"
+        Button:
+            text: "How"
+        Button:
+            text: "Are"
+        Button:
+            text: "You"
+        Button:
+            text: "ALL"
+    Label:
+        text: "Hope.. All Goob"
