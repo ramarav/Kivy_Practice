@@ -1,0 +1,55 @@
+GridLayoutExample:
+<GridLayoutExample>:
+    # rows
+    # cols
+    #cols: 3
+    rows: 2
+    Button:
+        text: "How"
+        size_hint: None, 1
+        width: "200dp"
+    Button:
+        text: "Are"
+        size_hint: None, 1
+        width: "200dp"
+    BoxLayoutExample:
+    Button:
+        text: "You"
+    Button:
+        text: "Hope"
+        size_hint: None, 1
+        width: "100dp"
+    Button:
+        text: "Everything"
+    Button:
+        text: "Fine"
+<BoxLayoutExample>:
+    orientation: "horizontal"
+    Button:
+        text: "A"
+
+        size_hint: .5, .5
+        # size: "100dp", "60dp"
+        # width: "100dp"
+        # height: "60dp"
+        # x, center_x, right
+        # y, center_y, top
+        pos_hint: { "center_y": .5 }
+
+    BoxLayout:
+        orientation: "vertical"
+        spacing: "10dp"
+        Button:
+            text: "B1"
+        Button:
+            text: "B2"
+        Button:
+            text: "B3"
+        Button:
+            text: "B4"
+    Label:
+        text: "C"
+
+
+
+
